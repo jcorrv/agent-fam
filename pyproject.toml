@@ -1,0 +1,12 @@
+[project]
+name = "agent-fam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain[openai]>=0.3.27",
+    "langchain-community>=0.3.30",
+    "langchain-mcp-adapters>=0.1.10",
+    "langgraph>=0.6.8",
+]
